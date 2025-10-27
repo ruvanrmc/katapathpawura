@@ -47,7 +47,6 @@ document.querySelector('.submit-button').addEventListener('click', () => {
     const userCreation = document.getElementById('js-creation-trace').value;
     if (userCreation.trim () !== '') {
         UserCreated.push(userCreation);
-        alert('Thank you for your submission!');
         document.getElementById('js-creation-trace').value = '';
     } else {
         alert('Please write something before submitting.');
